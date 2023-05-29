@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+
+<html lang="es" xml:lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <base href="/">
+    <meta charset="utf-8" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content=" La Estad&#xED;stica de transmisi&#xF3;n de derechos de la propiedad ofrece informaci&#xF3;n sobre el n&#xFA;mero de derechos sobre bienes inmuebles trasmitidos durante e..." />
+    <link href="/favicon.ico" rel="shortcut icon" />
+    <link rel="canonical" href="https://www.epdata.es/evolucion-compraventa-viviendas-comunidad-ine/e51a3936-db6e-43b1-b249-fa35f62ab041/madrid/304" />
+
+    <title>Comunidad de Madrid - Evoluci&#xF3;n de la compraventa de viviendas en Comunidad de Madrid, seg&#xFA;n el INE </title>
+    <!--estilos.ini-->
+    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="~/lib/bootstrap/css/bootstrap.min.css" asp-append-version="true">
+    <noscript><link type="text/css" rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" asp-append-version="true" /></noscript>
+        -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <!--
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="~/css/bootstrap.min.css" asp-append-version="true">
+    <noscript><link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css?v=WeTMaabzDZMt2RZbWP2X4QfUBt0W1rvbcdh68Z2yMaE" /></noscript> <!--estilos para hacer compatible bootstrap con jquery-->
+    <!--
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="~/lib/cookieconsent/cookieconset.min.css" asp-append-version="true">
+    <noscript><link type="text/css" rel="stylesheet" href="/lib/cookieconsent/cookieconset.min.css?v=gdo37OuMNsorfxitimhA4lTSPkLveieRiCdV8Uxfmeo" /></noscript> <!--https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.4/cookieconsent.min.css-->
+
+    <link href="/css/master.min.css?v=fjnWG3PKMNHKAmGnlWMYLWQma4BeajsZ2rfdDgGzb_4" rel="stylesheet" />
+    <!--
+    <link rel="preload" as="style"  onerror="this.rel='stylesheet'" onload="this.onload=null;this.rel='stylesheet'" href="~/css/master.min.css" asp-append-version="true">
+    <noscript><link type="text/css" rel="stylesheet" href="~/css/master.min.css" asp-append-version="true" /></noscript>
+    -->
+
+    <link href="/plugins/css/responsivealert.min.css?v=EpFWL8AkN3Yhakfk2MXw8cgEYGj7UhTJLdJvBzdU2xo" rel="stylesheet" />
+    <!--
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="~/plugins/css/responsivealert.min.css" asp-append-version="true">
+    <noscript><link type="text/css" rel="stylesheet" href="~/plugins/css/responsivealert.min.css" asp-append-version="true" /></noscript>
+        -->
+    <link href="/plugins/css/modalcargando.min.css?v=iaLrqq6bjpEpwku8jLUqUvmqPZYryOIMKxMGi477hms" rel="stylesheet" />
+    <!--
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="~/plugins/css/modalcargando.min.css" asp-append-version="true">
+    <noscript><link type="text/css" rel="stylesheet" href="~/plugins/css/modalcargando.min.css" asp-append-version="true" /></noscript>
+    -->
+    <link href="/plugins/css/avisoenmantenimiento.min.css?v=nYSzHAAwBrUvX2nKgrD5dMGxXAJKofv5myJs2U8PRJw" rel="stylesheet" />
+    <!--
+    <link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="~/plugins/css/avisoenmantenimiento.min.css" asp-append-version="true">
+    <noscript><link type="text/css" rel="stylesheet" href="~/plugins/css/avisoenmantenimiento.min.css" asp-append-version="true" /></noscript>
+    -->
+
+    <script src="/lib/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="/lib/stickyfill.min.js"></script>
+    <!--estilos.fin-->
+    
+    <meta property="og:title" content="Evoluci&#xF3;n de la compraventa de viviendas en Comunidad de Madrid, seg&#xFA;n el INE ">
+    <meta property="og:description" content=" La Estad&#xED;stica de transmisi&#xF3;n de derechos de la propiedad ofrece informaci&#xF3;n sobre el n&#xFA;mero de derechos sobre bienes inmuebles trasmitidos durante el mes de referencia, a nivel nacional, por provincias y comunidades aut&#xF3;nomas. - Comunidad de Madrid">
+    <meta property="og:image" content="https://d8nfir7wh3j0i.cloudfront.net/representacion/e51a3936-db6e-43b1-b249-fa35f62ab041/tiny/304.jpg">
+    <meta property="og:url" content="https://www.epdata.es/evolucion-compraventa-viviendas-comunidad-ine/e51a3936-db6e-43b1-b249-fa35f62ab041/madrid/304">
+    <meta property="og:site_name" content="EpData">
+
+    <meta property="fb:app_id" content="europapressdata" />
+
+    <meta name="twitter:title" content="Evoluci&#xF3;n de la compraventa de viviendas en Comunidad de Madrid, se...">
+    <meta name="twitter:domain" content="www.epdata.es" />
+    <meta name="twitter:description" content=" La Estad&#xED;stica de transmisi&#xF3;n de derechos de la propiedad ofrece informaci&#xF3;n sobre el n&#xFA;mero de derechos sobre bienes inmuebles trasmitidos durante el mes de referencia, a nivel nacional, por provincias y comunidades aut&#xF3;nomas. - Comunidad de Madrid">
+    <meta name="twitter:image" content="https://d8nfir7wh3j0i.cloudfront.net/representacion/e51a3936-db6e-43b1-b249-fa35f62ab041/tiny/304.jpg">
+    <meta name="twitter:image:alt" content="Gráfico de datos: Evoluci&#xF3;n de la compraventa de viviendas en Comunidad de Madrid, seg&#xFA;n el INE ">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@EP_Data">
+
+    
+    <link href="/plugins/css/gestiongrafica.min.css?v=2YtACHaJzcQ7MGUSa2LzCBmsz35WIHr9dy0N5BwLFzs" rel="stylesheet" />
+    <!--
+    <link rel="preload" href="~/plugins/css/gestiongrafica.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" asp-append-version="true">
+    <noscript><link href="~/plugins/css/gestiongrafica.min.css" type="text/css" rel="stylesheet" asp-append-version="true" /></noscript>
+    -->
+    <link href="/css/representaciongrafica.min.css?v=jY7oyeI2v5a1ZmxTBurRUt-heet34_Hx03nl44Qi9X4" rel="stylesheet" />
+    <!--
+    <link rel="preload" href="~/css/representaciongrafica.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" asp-append-version="true">
+    <noscript><link href="~/css/representaciongrafica.min.css" type="text/css" rel="stylesheet" asp-append-version="true" /></noscript>
+    -->
+    <link href="/css/componentes.min.css" rel="stylesheet" />
+    <!--<link rel="preload" href="~/css/componentes.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" asp-append-version="true">
+    <noscript><link href="~/css/componentes.min.css" type="text/css" rel="stylesheet" asp-append-version="true" /></noscript>
+    -->
+
+    <script type="text/javascript">!function(T,l,y){var S=T.location,u="script",k="instrumentationKey",D="ingestionendpoint",C="disableExceptionTracking",E="ai.device.",I="toLowerCase",b="crossOrigin",w="POST",e="appInsightsSDK",t=y.name||"appInsights";(y.name||T[e])&&(T[e]=t);var n=T[t]||function(d){var g=!1,f=!1,m={initialize:!0,queue:[],sv:"4",version:2,config:d};function v(e,t){var n={},a="Browser";return n[E+"id"]=a[I](),n[E+"type"]=a,n["ai.operation.name"]=S&&S.pathname||"_unknown_",n["ai.internal.sdkVersion"]="javascript:snippet_"+(m.sv||m.version),{time:function(){var e=new Date;function t(e){var t=""+e;return 1===t.length&&(t="0"+t),t}return e.getUTCFullYear()+"-"+t(1+e.getUTCMonth())+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+":"+t(e.getUTCMinutes())+":"+t(e.getUTCSeconds())+"."+((e.getUTCMilliseconds()/1e3).toFixed(3)+"").slice(2,5)+"Z"}(),iKey:e,name:"Microsoft.ApplicationInsights."+e.replace(/-/g,"")+"."+t,sampleRate:100,tags:n,data:{baseData:{ver:2}}}}var h=d.url||y.src;if(h){function a(e){var t,n,a,i,r,o,s,c,p,l,u;g=!0,m.queue=[],f||(f=!0,t=h,s=function(){var e={},t=d.connectionString;if(t)for(var n=t.split(";"),a=0;a<n.length;a++){var i=n[a].split("=");2===i.length&&(e[i[0][I]()]=i[1])}if(!e[D]){var r=e.endpointsuffix,o=r?e.location:null;e[D]="https://"+(o?o+".":"")+"dc."+(r||"services.visualstudio.com")}return e}(),c=s[k]||d[k]||"",p=s[D],l=p?p+"/v2/track":config.endpointUrl,(u=[]).push((n="SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)",a=t,i=l,(o=(r=v(c,"Exception")).data).baseType="ExceptionData",o.baseData.exceptions=[{typeName:"SDKLoadFailed",message:n.replace(/\./g,"-"),hasFullStack:!1,stack:n+"\nSnippet failed to load ["+a+"] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: "+(S&&S.pathname||"_unknown_")+"\nEndpoint: "+i,parsedStack:[]}],r)),u.push(function(e,t,n,a){var i=v(c,"Message"),r=i.data;r.baseType="MessageData";var o=r.baseData;return o.message='AI (Internal): 99 message:"'+("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) ("+n+")").replace(/\"/g,"")+'"',o.properties={endpoint:a},i}(0,0,t,l)),function(e,t){if(JSON){var n=T.fetch;if(n&&!y.useXhr)n(t,{method:w,body:JSON.stringify(e),mode:"cors"});else if(XMLHttpRequest){var a=new XMLHttpRequest;a.open(w,t),a.setRequestHeader("Content-type","application/json"),a.send(JSON.stringify(e))}}}(u,l))}function i(e,t){f||setTimeout(function(){!t&&m.core||a()},500)}var e=function(){var n=l.createElement(u);n.src=h;var e=y[b];return!e&&""!==e||"undefined"==n[b]||(n[b]=e),n.onload=i,n.onerror=a,n.onreadystatechange=function(e,t){"loaded"!==n.readyState&&"complete"!==n.readyState||i(0,t)},n}();y.ld<0?l.getElementsByTagName("head")[0].appendChild(e):setTimeout(function(){l.getElementsByTagName(u)[0].parentNode.appendChild(e)},y.ld||0)}try{m.cookie=l.cookie}catch(p){}function t(e){for(;e.length;)!function(t){m[t]=function(){var e=arguments;g||m.queue.push(function(){m[t].apply(m,e)})}}(e.pop())}var n="track",r="TrackPage",o="TrackEvent";t([n+"Event",n+"PageView",n+"Exception",n+"Trace",n+"DependencyData",n+"Metric",n+"PageViewPerformance","start"+r,"stop"+r,"start"+o,"stop"+o,"addTelemetryInitializer","setAuthenticatedUserContext","clearAuthenticatedUserContext","flush"]),m.SeverityLevel={Verbose:0,Information:1,Warning:2,Error:3,Critical:4};var s=(d.extensionConfig||{}).ApplicationInsightsAnalytics||{};if(!0!==d[C]&&!0!==s[C]){method="onerror",t(["_"+method]);var c=T[method];T[method]=function(e,t,n,a,i){var r=c&&c(e,t,n,a,i);return!0!==r&&m["_"+method]({message:e,url:t,lineNumber:n,columnNumber:a,error:i}),r},d.autoExceptionInstrumented=!0}return m}(y.cfg);(T[t]=n).queue&&0===n.queue.length&&n.trackPageView({})}(window,document,{
+src: "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",
+cfg: { 
+    instrumentationKey: '9306721a-6984-4b48-9237-ab0075e97eb4'
+}});
+    </script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-2197908-18"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-2197908-18');
+    </script>
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>var googletag = googletag || {}; googletag.cmd = googletag.cmd || [];</script>
+    <script>
+        sctiltle = function (s) {
+            var r = s.toLowerCase(s);
+            r = r.replace(new RegExp(/[Ã Ã¡Ã¢Ã£Ã¤Ã¥]/g), "a");
+            r = r.replace(new RegExp(/Ã¦/g), "ae");
+            r = r.replace(new RegExp(/Ã§/g), "c");
+            r = r.replace(new RegExp(/[Ã¨Ã©ÃªÃ«]/g), "e");
+            r = r.replace(new RegExp(/[Ã¬ÃÃ®Ã¯]/g), "i");
+            r = r.replace(new RegExp(/Ã±/g), "n");
+            r = r.replace(new RegExp(/[Ã²Ã³Ã´ÃµÃ¶]/g), "o");
+            r = r.replace(new RegExp(/Å“/g), "oe");
+            r = r.replace(new RegExp(/[Ã¹ÃºÃ»Ã¼]/g), "u");
+            r = r.replace(new RegExp(/[Ã½Ã¿]/g), "y");
+            r = r.replace(new RegExp(/[,\/]/g), ",")
+            return r;
+        }
+        var tags2 = document.title.split(/[:.\/ -]/).join(',');
+        var tags = sctiltle(tags2);
+        googletag.cmd.push(function () {
+            var REFRESH_KEY = 'inview';
+            var REFRESH_VALUE = 'true';
+            googletag.defineSlot('/1013178/HomeEpData', [[980, 200], [970, 250], 'fluid', [728, 90]], 'div-gpt-id-HomeEpData').addService(googletag.pubads()).setCollapseEmptyDiv(true).setTargeting(REFRESH_KEY, REFRESH_VALUE).setTargeting("tags", tags).setTargeting("lazy", "activated");
+            googletag.defineSlot('/1013178/BuscadorEpData', [[300, 600], 'fluid', [300, 250]], 'div-gpt-id-BuscadorEpData').addService(googletag.pubads()).setCollapseEmptyDiv(true).setTargeting(REFRESH_KEY, REFRESH_VALUE).setTargeting("tags", tags).setTargeting("lazy", "activated");
+            googletag.defineSlot('/1013178/PlantillaDatosEpData', [[300, 600], 'fluid', [300, 250]], 'div-gpt-id-PlantillaDatosEpData').addService(googletag.pubads()).setCollapseEmptyDiv(true).setTargeting(REFRESH_KEY, REFRESH_VALUE).setTargeting("tags", tags).setTargeting("lazy", "activated");
+            googletag.defineSlot('/1013178/RepresentacionEpData', [[300, 600], 'fluid', [300, 250]], 'div-gpt-id-RepresentacionEpData').addService(googletag.pubads()).setCollapseEmptyDiv(true).setTargeting(REFRESH_KEY, REFRESH_VALUE).setTargeting("tags", tags).setTargeting("lazy", "activated");
+            //var SECONDS_TO_WAIT_AFTER_VIEWABILITY = 18;
+            googletag.pubads().enableLazyLoad();
+            googletag.pubads().enableLazyLoad({
+                fetchMarginPercent: 75
+            });
+            googletag.pubads().enableLazyLoad({
+                fetchMarginPercent: 75,
+                renderMarginPercent: 25,
+                mobileScaling: 0
+            });
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+    </script>
+
+    <script>
+        (function () {
+            /*  Copyright The Closure Library Authors.
+                SPDX-License-Identifier: Apache-2.0
+            */
+
+            'use strict'; var g = function (a) { var b = 0; return function () { return b < a.length ? { done: !1, value: a[b++] } : { done: !0 } } }, l = this || self, m = /^[\w+/_-]+[=]{0,2}$/, p = null, q = function () { }, r = function (a) {
+                var b = typeof a; if ("object" == b) if (a) {
+                    if (a instanceof Array) return "array"; if (a instanceof Object) return b; var c = Object.prototype.toString.call(a); if ("[object Window]" == c) return "object"; if ("[object Array]" == c || "number" == typeof a.length && "undefined" != typeof a.splice && "undefined" != typeof a.propertyIsEnumerable && !a.propertyIsEnumerable("splice")) return "array";
+                    if ("[object Function]" == c || "undefined" != typeof a.call && "undefined" != typeof a.propertyIsEnumerable && !a.propertyIsEnumerable("call")) return "function"
+                } else return "null"; else if ("function" == b && "undefined" == typeof a.call) return "object"; return b
+            }, u = function (a, b) { function c() { } c.prototype = b.prototype; a.prototype = new c; a.prototype.constructor = a }; var v = function (a, b) { Object.defineProperty(l, a, { configurable: !1, get: function () { return b }, set: q }) }; var y = function (a, b) { this.b = a === w && b || ""; this.a = x }, x = {}, w = {}; var aa = function (a, b) { a.src = b instanceof y && b.constructor === y && b.a === x ? b.b : "type_error:TrustedResourceUrl"; if (null === p) b: { b = l.document; if ((b = b.querySelector && b.querySelector("script[nonce]")) && (b = b.nonce || b.getAttribute("nonce")) && m.test(b)) { p = b; break b } p = "" } b = p; b && a.setAttribute("nonce", b) }; var z = function () { return Math.floor(2147483648 * Math.random()).toString(36) + Math.abs(Math.floor(2147483648 * Math.random()) ^ +new Date).toString(36) }; var A = function (a, b) { b = String(b); "application/xhtml+xml" === a.contentType && (b = b.toLowerCase()); return a.createElement(b) }, B = function (a) { this.a = a || l.document || document }; B.prototype.appendChild = function (a, b) { a.appendChild(b) }; var C = function (a, b, c, d, e, f) { try { var k = a.a, h = A(a.a, "SCRIPT"); h.async = !0; aa(h, b); k.head.appendChild(h); h.addEventListener("load", function () { e(); d && k.head.removeChild(h) }); h.addEventListener("error", function () { 0 < c ? C(a, b, c - 1, d, e, f) : (d && k.head.removeChild(h), f()) }) } catch (n) { f() } }; var ba = l.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"), ca = l.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="), da = l.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"), ea = function (a, b, c) { this.b = a; this.f = new B(this.b); this.a = null; this.c = []; this.g = !1; this.i = b; this.h = c }, F = function (a) {
+                if (a.b.body && !a.g) {
+                    var b =
+                        function () { D(a); l.setTimeout(function () { return E(a, 3) }, 50) }; C(a.f, a.i, 2, !0, function () { l[a.h] || b() }, b); a.g = !0
+                }
+            }, D = function (a) {
+                for (var b = G(1, 5), c = 0; c < b; c++) { var d = H(a); a.b.body.appendChild(d); a.c.push(d) } b = H(a); b.style.bottom = "0"; b.style.left = "0"; b.style.position = "fixed"; b.style.width = G(100, 110).toString() + "%"; b.style.zIndex = G(2147483544, 2147483644).toString(); b.style["background-color"] = I(249, 259, 242, 252, 219, 229); b.style["box-shadow"] = "0 0 12px #888"; b.style.color = I(0, 10, 0, 10, 0, 10); b.style.display =
+                    "flex"; b.style["justify-content"] = "center"; b.style["font-family"] = "Roboto, Arial"; c = H(a); c.style.width = G(80, 85).toString() + "%"; c.style.maxWidth = G(750, 775).toString() + "px"; c.style.margin = "24px"; c.style.display = "flex"; c.style["align-items"] = "flex-start"; c.style["justify-content"] = "center"; d = A(a.f.a, "IMG"); d.className = z(); d.src = ba; d.style.height = "24px"; d.style.width = "24px"; d.style["padding-right"] = "16px"; var e = H(a), f = H(a); f.style["font-weight"] = "bold"; f.textContent = ca; var k = H(a); k.textContent = da; J(a,
+                        e, f); J(a, e, k); J(a, c, d); J(a, c, e); J(a, b, c); a.a = b; a.b.body.appendChild(a.a); b = G(1, 5); for (c = 0; c < b; c++)d = H(a), a.b.body.appendChild(d), a.c.push(d)
+            }, J = function (a, b, c) { for (var d = G(1, 5), e = 0; e < d; e++) { var f = H(a); b.appendChild(f) } b.appendChild(c); c = G(1, 5); for (d = 0; d < c; d++)e = H(a), b.appendChild(e) }, G = function (a, b) { return Math.floor(a + Math.random() * (b - a)) }, I = function (a, b, c, d, e, f) {
+                return "rgb(" + G(Math.max(a, 0), Math.min(b, 255)).toString() + "," + G(Math.max(c, 0), Math.min(d, 255)).toString() + "," + G(Math.max(e, 0), Math.min(f,
+                    255)).toString() + ")"
+            }, H = function (a) { a = A(a.f.a, "DIV"); a.className = z(); return a }, E = function (a, b) { 0 >= b || null != a.a && 0 != a.a.offsetHeight && 0 != a.a.offsetWidth || (fa(a), D(a), l.setTimeout(function () { return E(a, b - 1) }, 50)) }, fa = function (a) { var b = a.c; var c = "undefined" != typeof Symbol && Symbol.iterator && b[Symbol.iterator]; b = c ? c.call(b) : { next: g(b) }; for (c = b.next(); !c.done; c = b.next())(c = c.value) && c.parentNode && c.parentNode.removeChild(c); a.c = []; (b = a.a) && b.parentNode && b.parentNode.removeChild(b); a.a = null }; var ia = function (a, b, c, d, e) { var f = ha(c), k = function (n) { n.appendChild(f); l.setTimeout(function () { f ? (0 !== f.offsetHeight && 0 !== f.offsetWidth ? b() : a(), f.parentNode && f.parentNode.removeChild(f)) : a() }, d) }, h = function (n) { document.body ? k(document.body) : 0 < n ? l.setTimeout(function () { h(n - 1) }, e) : b() }; h(3) }, ha = function (a) { var b = document.createElement("div"); b.className = a; b.style.width = "1px"; b.style.height = "1px"; b.style.position = "absolute"; b.style.left = "-10000px"; b.style.top = "-10000px"; b.style.zIndex = "-10000"; return b }; var K = {}, L = null; var M = function () { }, N = "function" == typeof Uint8Array, O = function (a, b) { a.b = null; b || (b = []); a.j = void 0; a.f = -1; a.a = b; a: { if (b = a.a.length) { --b; var c = a.a[b]; if (!(null === c || "object" != typeof c || Array.isArray(c) || N && c instanceof Uint8Array)) { a.g = b - a.f; a.c = c; break a } } a.g = Number.MAX_VALUE } a.i = {} }, P = [], Q = function (a, b) { if (b < a.g) { b += a.f; var c = a.a[b]; return c === P ? a.a[b] = [] : c } if (a.c) return c = a.c[b], c === P ? a.c[b] = [] : c }, R = function (a, b, c) { a.b || (a.b = {}); if (!a.b[c]) { var d = Q(a, c); d && (a.b[c] = new b(d)) } return a.b[c] };
+            M.prototype.h = N ? function () {
+                var a = Uint8Array.prototype.toJSON; Uint8Array.prototype.toJSON = function () {
+                    var b; void 0 === b && (b = 0); if (!L) { L = {}; for (var c = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""), d = ["+/=", "+/", "-_=", "-_.", "-_"], e = 0; 5 > e; e++) { var f = c.concat(d[e].split("")); K[e] = f; for (var k = 0; k < f.length; k++) { var h = f[k]; void 0 === L[h] && (L[h] = k) } } } b = K[b]; c = []; for (d = 0; d < this.length; d += 3) {
+                        var n = this[d], t = (e = d + 1 < this.length) ? this[d + 1] : 0; h = (f = d + 2 < this.length) ? this[d + 2] : 0; k = n >> 2; n = (n &
+                            3) << 4 | t >> 4; t = (t & 15) << 2 | h >> 6; h &= 63; f || (h = 64, e || (t = 64)); c.push(b[k], b[n], b[t] || "", b[h] || "")
+                    } return c.join("")
+                }; try { return JSON.stringify(this.a && this.a, S) } finally { Uint8Array.prototype.toJSON = a }
+            } : function () { return JSON.stringify(this.a && this.a, S) }; var S = function (a, b) { return "number" !== typeof b || !isNaN(b) && Infinity !== b && -Infinity !== b ? b : String(b) }; M.prototype.toString = function () { return this.a.toString() }; var T = function (a) { O(this, a) }; u(T, M); var U = function (a) { O(this, a) }; u(U, M); var ja = function (a, b) { this.c = new B(a); var c = R(b, T, 5); c = new y(w, Q(c, 4) || ""); this.b = new ea(a, c, Q(b, 4)); this.a = b }, ka = function (a, b, c, d) { b = new T(b ? JSON.parse(b) : null); b = new y(w, Q(b, 4) || ""); C(a.c, b, 3, !1, c, function () { ia(function () { F(a.b); d(!1) }, function () { d(!0) }, Q(a.a, 2), Q(a.a, 3), Q(a.a, 1)) }) }; var la = function (a, b) { V(a, "internal_api_load_with_sb", function (c, d, e) { ka(b, c, d, e) }); V(a, "internal_api_sb", function () { F(b.b) }) }, V = function (a, b, c) { a = l.btoa(a + b); v(a, c) }, W = function (a, b, c) { for (var d = [], e = 2; e < arguments.length; ++e)d[e - 2] = arguments[e]; e = l.btoa(a + b); e = l[e]; if ("function" == r(e)) e.apply(null, d); else throw Error("API not exported."); }; var X = function (a) { O(this, a) }; u(X, M); var Y = function (a) { this.h = window; this.a = a; this.b = Q(this.a, 1); this.f = R(this.a, T, 2); this.g = R(this.a, U, 3); this.c = !1 }; Y.prototype.start = function () { ma(); var a = new ja(this.h.document, this.g); la(this.b, a); na(this) };
+            var ma = function () { var a = function () { if (!l.frames.googlefcPresent) if (document.body) { var b = document.createElement("iframe"); b.style.display = "none"; b.style.width = "0px"; b.style.height = "0px"; b.style.border = "none"; b.style.zIndex = "-1000"; b.style.left = "-1000px"; b.style.top = "-1000px"; b.name = "googlefcPresent"; document.body.appendChild(b) } else l.setTimeout(a, 5) }; a() }, na = function (a) {
+                var b = Date.now(); W(a.b, "internal_api_load_with_sb", a.f.h(), function () {
+                    var c; var d = a.b, e = l[l.btoa(d + "loader_js")]; if (e) {
+                        e = l.atob(e);
+                        e = parseInt(e, 10); d = l.btoa(d + "loader_js").split("."); var f = l; d[0] in f || "undefined" == typeof f.execScript || f.execScript("var " + d[0]); for (; d.length && (c = d.shift());)d.length ? f[c] && f[c] !== Object.prototype[c] ? f = f[c] : f = f[c] = {} : f[c] = null; c = Math.abs(b - e); c = 1728E5 > c ? 0 : c
+                    } else c = -1; 0 != c && (W(a.b, "internal_api_sb"), Z(a, Q(a.a, 6)))
+                }, function (c) { Z(a, c ? Q(a.a, 4) : Q(a.a, 5)) })
+            }, Z = function (a, b) { a.c || (a.c = !0, a = new l.XMLHttpRequest, a.open("GET", b, !0), a.send()) }; (function (a, b) { l[a] = function (c) { for (var d = [], e = 0; e < arguments.length; ++e)d[e - 0] = arguments[e]; l[a] = q; b.apply(null, d) } })("__d3lUW8vwsKlB__", function (a) { "function" == typeof window.atob && (a = window.atob(a), a = new X(a ? JSON.parse(a) : null), (new Y(a)).start()) });
+        }).call(this);
+
+        window.__d3lUW8vwsKlB__("WyJlNmE0NzZkZWYzY2M2OWRiIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2YvQUdTS1d4V1dZYmJuQTVKaVk0b2d4dXJSMG1xVG1FcnR2cWxQQlhnWm5jZXRBdjY0M3hXNUtfZzJScTduZVRMMGNLUHRjUURQNExXdXRmQjJWS1F1MUg0V3YwWVx1MDAzZCJdCixbMjAsImRpdi1ncHQtYWQiLDEwMCwiWlRaaE5EYzJaR1ZtTTJOak5qbGtZZ1x1MDAzZFx1MDAzZCIsW251bGwsbnVsbCxudWxsLCJodHRwczovL3d3dy5nc3RhdGljLmNvbS8wZW1uL2YvcC9lNmE0NzZkZWYzY2M2OWRiLmpzP3VzcXBcdTAwM2RDQUUiXQpdCiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hWWlhEM3BjemhXRlJnWmtKLTMwd1JSNFR0YkE3dGhxNm9ZeG9NcFFsQ0FLME9CM0RYNEMtMXN0YXdPWUVwT0czMXFVdHNHNVJwZGU1UDVyYzF6P2FiXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2wvQUdTS1d4VXhUaEszMGY2YUhFR0RiU3JyekFaLWc2RmM0R1BkdnJVOFd6elFSdm1HTTN0V3VjbDBoRGxNMlJIZVpSTnBETk0zNjducERvYjRJblFFRnFrYj9hYlx1MDAzZDJcdTAwMjZzYmZcdTAwM2QxIiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hXdy01ZmxJMEFsNGZubS1uSHFzU3kzV2RsbTQ0ZGFpMlVheFZSTkpQbXZRUnBBS1M5SGdfNkFXb3JPNGZzUlJ5dGFya2lYb0EzZzV6NzBZQTd5P3NiZlx1MDAzZDIiXQo=");
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            
+
+
+
+<div class="container">
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img data-src="/images/logo-epdata.webp" class="lazyload" alt="logotipo de Agencia de datos" />
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/login">
+                            <div class="icono-custom">
+                                <span class="glyphicon glyphicon-user"></span>
+                            </div>Iniciar Sesión
+                        </a>
+                    </li>
+                    <li><a href="/registro">Crear cuenta</a></li>
+                </ul>
+        </div>
+    </nav>
+</div>
+
+        </header>
+        <div class="layoutpublic-body-contenedor">
+            
+
+
+
+
+    <div class="creargrafica-plantilla-migadepan contenedor-imagenparaclon">
+        <svg id="representacion-contenedor-imagen" class="representacion-contenedor-imagen" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
+            <foreignObject id="foreign" width="100%" height="100%">
+
+            </foreignObject>
+        </svg>
+    </div>
+    <div class="container mostrar-representacion">
+
+    <div class="representacion-contenedor-publi-y-representacion">
+        <div class="page-header page-header-theme row text-center">
+            <div class="banner-superior">
+                <div style='margin:0.5em 0 0.5em 0;' id='div-gpt-id-RepresentacionEpData'>
+                    <script type='text/javascript'>
+                        googletag.cmd.push(function () { googletag.display('div-gpt-id-RepresentacionEpData'); });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="panel margintop20">
+            <div class="panel-body">
+                <div class="container representacion-scroll-container">
+                    <div class="thumbs-list text-left" id="representacion-contenedor-detalles">
+                        <div id="representacion-contenedor-mostrar">
+                            <div class="representacion-textoaltparaseo">
+                                <h1>Evoluci&#xF3;n de la compraventa de viviendas en Comunidad de Madrid, seg&#xFA;n el INE </h1>
+                                    <p>Viviendas</p>
+                                    <p>Compraventa de viviendas a nivel mensual - Viviendas para general como tipo de vivienda y Madrid como comunidad aut&#xF3;noma</p>
+                                <p>INE</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="botonerarepresentacion"></div>
+        </div>
+    </div>
+</div>
+<div class="container">
+        <div class="panel panel-body">
+            <div class="representacion-seo">
+                 La Estadística de transmisión de derechos de la propiedad ofrece información sobre el número de derechos sobre bienes inmuebles trasmitidos durante el mes de referencia, a nivel nacional, por provincias y comunidades autónomas. - Comunidad de Madrid
+            </div>
+        </div>
+        <div class="panel panel-body">
+
+            <div class="representacion-plantillawebrelacionada-contenedor">
+                <h3 class="representacion-plantillawebrelacionada-titulo">Análisis relacionados</h3>
+
+                <ul class="list-unstyled list-theme my-5">
+                        <li class="mb-4"><span class="icon-arrow-right14 colorTheme position-left"></span><a class="representacion-plantillawebrelacionada" href="/datos/precios-casas-compra-venta-viviendas-datos-graficos-comunidades-autonomas/40/comunidad-madrid/304">Estad&#xED;sticas de viviendas por comunidad aut&#xF3;noma (precio por metro cuadadro, compraventa, etc.)</a></li>
+                        <li class="mb-4"><span class="icon-arrow-right14 colorTheme position-left"></span><a class="representacion-plantillawebrelacionada" href="/datos/viviendas-protegidas-comunidades-autonomas-compraventa-construccion/217/comunidad-madrid/304">Viviendas protegidas en la comunidad</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <section class="col-md-8 col-sm-6 col-xs-12">
+        
+<div class="panel">
+    <div class="plantillawebrelacionada-contenedor">
+        <h3 class="plantillawebrelacionada-titulo">Análisis más recientes</h3>
+        <ul class="list-unstyled list-theme my-4">
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/alemania-datos-macroeconomicos-graficos/676">
+                        Alemania - Producto Interior Bruto (PIB), desempleo, inflaci&#xF3;n, paro, datos macroecon&#xF3;micos y gr&#xE1;ficos
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/guerra-rusia-ucrania-datos-graficos/646">
+                        Mapas y gr&#xE1;ficos de la situaci&#xF3;n de la guerra en Ucrania, &#xFA;ltima hora
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/resultados-elecciones-autonomicas-municipales-2023-datos-graficos-estadisticas-28m-mapas-partidos/689">
+                        Resultados elecciones auton&#xF3;micas y municipales 2023, datos y gr&#xE1;ficos
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/chile-datos-macroeconomicos-datos-graficos/657">
+                        Chile - Producto Interior Bruto (PIB), datos macroecon&#xF3;micos y gr&#xE1;ficos
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/estimacion-intencion-voto-elecciones-cis-demoscopicas/43/espana/106">
+                        Estimaci&#xF3;n de voto para las pr&#xF3;ximas elecciones seg&#xFA;n el CIS, en gr&#xE1;ficos
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/nombres-apellidos-mas-frecuentes-espana-ine/373">
+                        Nombres y apellidos m&#xE1;s frecuentes en Espa&#xF1;a, seg&#xFA;n el INE
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/italia-producto-interior-bruto-pib-paro-inflacion-datos-macroeconomicos-graficos/672">
+                        Italia - Producto Interior Bruto (PIB), paro, inflaci&#xF3;n, datos macroecon&#xF3;micos y gr&#xE1;ficos
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/erupciones-volcanicas-canarias-siglo-xv-graficos/611">
+                        La erupci&#xF3;n volc&#xE1;nica en La Palma y otras erupciones en Canarias, en gr&#xE1;ficos
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/eurovision-2019-datos-graficos/48">
+                        Eurovisi&#xF3;n 2023: datos y gr&#xE1;ficos para conocer mejor el festival
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/brasil-datos-macroeconomicos-datos-graficos/659">
+                        Brasil - Producto Interior Bruto (PIB), desempleo, inflaci&#xF3;n, datos macroecon&#xF3;micos y gr&#xE1;ficos
+                    </a>
+                </li>
+        </ul>
+    </div>
+</div>
+
+    </section>
+    <section class="col-md-4 col-sm-6 col-xs-12">
+        
+<div class="panel">
+    <div class="plantillawebrelacionada-contenedor">
+        <h3 class="plantillawebrelacionada-titulo">Tal vez te interese</h3>
+        <ul class="list-unstyled list-theme my-4">
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/poblacion-espana-hoy-inmigrantes-emigrantes-otros-datos-habitantes-espana/1/espana/106">
+                        Poblaci&#xF3;n
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/deuda-publica-espana-hoy-datos-banco-espana/7/espana/106">
+                        Deuda p&#xFA;blica
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/paro-espana-hoy-epa-ine/10/espana/106">
+                        Empleo
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/crimen-espana-hoy-asesinatos-robos-secuestros-otros-delitos/4/espana/106">
+                        Crimen
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/compra-venta-vivienda-mercado-inmobiliario-datos-hoy/29/espana/106">
+                        Vivienda
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/pensiones-graficos-datos/20/espana/106">
+                        Pensiones
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/paro-registrado-datos-graficos/38/espana/106">
+                        Paro registrado
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/estimacion-intencion-voto-elecciones-cis-demoscopicas/43/espana/106">
+                        Estimaci&#xF3;n de voto
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/coronavirus-china-datos-graficos/498">
+                        Coronavirus
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <span class="icon-arrow-right14 colorTheme position-left"></span>
+                    <a class="plantillawebrelacionada-enlace" href="/datos/datos-graficos-estadisticas-municipio/52/madrid/4245">
+                        Tu municipio, en datos
+                    </a>
+                </li>
+        </ul>
+    </div>
+</div>      
+    </section>
+</div>
+
+        </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="footer text-muted text-center">
+            <ul class="list-inline">
+                <li><a href="/contacto">Contacto</a></li> |
+                <li><a href="https://www.europapress.es/avisolegal.html" rel="noindex">Aviso legal</a></li> |
+                <li><a href="https://www.europapress.es/politica-privacidad.html" rel="noindex">Política de privacidad</a></li> |
+                <li><a href="https://www.europapress.es/politica-cookies.html" rel="noindex">Política de cookies</a></li> |
+                <li><a href="javascript: mostrarMensajeCMP();">Gestionar Consentimiento de Cookies</a></li> |
+                <li> <a href="/mapaweb">Mapa web</a></li>
+
+            </ul>
+            <p>
+                &copy; 2023 - <a href="https://www.epdata.es">Agencia de Datos</a> - editado por
+                <a href="https://www.europapress.es" target="_blank">
+                    <span class="text-semibold">Europa</span>
+                    <span class="text-semibold">Press</span>
+                </a>
+            </p>
+
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    
+    
+        <!--Ojo: prestar atención, porque hay scripts que deben ser bloqueantes y scripts que pueden ser asíncronos-->
+        <script async src="/js/cmp.js"></script>
+        <script src="/plugins/js/helper.min.js?v=pZkEb4SEjJLc5TEQ4GGKBPSsOTm1-T-RMztQTkKAPSY"></script>
+        <script src="/lib/jquery-2-2-4.js?v=74FQJ_DbYmwIBPh4SVtWtQmPyvVRC6GoeVur_TYipR4"></script>
+        <script async src="/plugins/js/responsivealert.min.js?v=eKYhaETmieH9jL4fIDAY4jE4pdJ_o6Y6qOFHnQ4hMrg"></script>
+        <script src="/plugins/js/modalcargando.min.js?v=y_Lg58SFn0Rpl1AkQa5hPks7FLx538rhp6Hm-CN6XJc"></script>
+        <script src="/plugins/js/avisoenmantenimiento.min.js?v=xWBY3dPYPR6p7owWK-WfF42lAcHk4xHZLn1ngerYXj0"></script>
+        <script src="/lib/jquery-ui-bootstrap/js/jquery-ui-1.12.1.custom.min.js"></script>
+        <script src="/lib/stickyfill.min.js"></script>
+        <script src="/js/helper/master.min.js?v=vwGODdbuefbg7ucg87_LApQ4YtG-Ti59U0_X6X9576o"></script>
+        <script async src="/lib/bootstrap/js/bootstrap-3-3-7.js"></script>
+        <script src="/lib/lazysizes-5-2-2/lazysizes.min.js" defer></script>
+        <script src="https://kit.fontawesome.com/bcd83645c2.js" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    <!--representacion.ini-->
+    <script defer src="/js/d3-lib.min.js"></script>
+    
+    
+        <script defer src="/js/d3-lib.min.js"></script>
+        <script defer src="/js/representacion.min.js?v=JUhn0zbguDK82PBhvVrUCn-Imy7bWnK8U-YwZGTNYPI"></script>
+        <script defer src="/js/gestion-representacion.min.js?v=J0roPgCAvLNSckOVRGFLon2xsEMcxooRZJCpXsSDIQY"></script>
+    
+    <!--representacion.fin-->
+
+    <script async type="text/javascript">
+        $(function () {
+            var sGuid = 'e51a3936-db6e-43b1-b249-fa35f62ab041';
+            var sFK_RegionValor = '304';
+            var iFK_RegionValor = sFK_RegionValor.length === 0 ? null : parseInt(sFK_RegionValor);
+
+            var oRepresentacion = new Representacion(
+                document.getElementById("representacion-contenedor-mostrar"),
+                document.getElementById("botonerarepresentacion"),
+                $("#representacion-contenedor-imagen"),
+                sGuid,
+                iFK_RegionValor,
+                null,
+                null
+            );
+        });
+    </script>
+    <script type="application/ld+json">
+        
+        {
+            "@context":"https://schema.org/",
+            "@type":"Dataset",
+            "name":"Comunidad de Madrid - Evolución de la compraventa de viviendas en Comunidad de Madrid, según el INE ",
+            "description":"Compraventa de viviendas a nivel mensual - Viviendas para general como tipo de vivienda y Madrid como comunidad autónoma",
+            "url":"https://www.epdata.es/evolucion-compraventa-viviendas-comunidad-ine/e51a3936-db6e-43b1-b249-fa35f62ab041/madrid/304",
+            "sameAs":"https://www.epdata.es/evolucion-compraventa-viviendas-comunidad-ine/e51a3936-db6e-43b1-b249-fa35f62ab041/madrid/304",
+            "identifier":"https://www.epdata.es/evolucion-compraventa-viviendas-comunidad-ine/e51a3936-db6e-43b1-b249-fa35f62ab041/madrid/304",
+        "keywords":"Compraventa,viviendas,Madrid,Evolución,INE",
+            "creator":{
+                "@type":"Organization",
+                "url": "https://www.epdata.es/",
+                "name":"EpData",
+                "contactPoint":{
+                    "@type":"ContactPoint",
+                    "contactType":"technical support",
+                    "telephone":"+34-91-359-26-00",
+                    "email":"contacto@epdata.es"
+                }
+            },
+            "distribution":[
+                {
+                    "@type":"DataDownload",
+                    "encodingFormat":"CSV",
+                    "fileFormat":"",
+                    "contentUrl":"https://www.epdata.es/evolucion-compraventa-viviendas-comunidad-ine/e51a3936-db6e-43b1-b249-fa35f62ab041/madrid/304"
+                },
+                {
+                    "@type":"DataDownload",
+                    "encodingFormat":"JSON",
+                    "contentUrl":"https://www.epdata.es/evolucion-compraventa-viviendas-comunidad-ine/e51a3936-db6e-43b1-b249-fa35f62ab041/madrid/304"
+                },
+                {
+                    "@type":"DataDownload",
+                    "encodingFormat":"JPG",
+                    "contentUrl":"https://www.epdata.es/evolucion-compraventa-viviendas-comunidad-ine/e51a3936-db6e-43b1-b249-fa35f62ab041/madrid/304"
+                }
+            ],
+            "image" : {
+                "@type" : "ImageObject",
+                "contentUrl" : "https://d8nfir7wh3j0i.cloudfront.net/representacion/e51a3936-db6e-43b1-b249-fa35f62ab041/huge/304.jpg",
+                "caption" : "Comunidad de Madrid - Evolución de la compraventa de viviendas en Comunidad de Madrid, según el INE ",
+                "url" : "https://d8nfir7wh3j0i.cloudfront.net/representacion/e51a3936-db6e-43b1-b249-fa35f62ab041/huge/304.jpg"
+            },
+            "temporalCoverage" : "2007-01-01/2023-03-31",
+            "variableMeasured":"Viviendas",
+        "spatialCoverage":[
+                        {
+                            "@type":"Place",
+                            "geo":{
+                                "@type":"GeoCoordinates",
+                                "latitude":40.416751500000000000,
+                                "longitude":-3.703832200000000000
+                            }
+                        }
+                    ],
+            "publisher":{
+                "@type":"Organization",
+                "url" : "https://www.epdata.es/",
+                "name" : "EpData - La actualidad informativa en datos estadísticos de Europa Press",
+                "contactPoint":{
+                    "@type":"ContactPoint",
+                    "telephone":"+34-91-359-26-00",
+                    "faxNumber":"+34-91-350-11-69",
+                    "email":"contacto@epdata.es",
+                    "hoursAvailable":{
+                        "@type":"OpeningHoursSpecification",
+                        "dayOfWeek":[
+                            "http://purl.org/goodrelations/v1/#Monday",
+                            "http://purl.org/goodrelations/v1/#Tuesday",
+                            "http://purl.org/goodrelations/v1/#Wednesday",
+                            "http://purl.org/goodrelations/v1/#Thursday",
+                            "http://purl.org/goodrelations/v1/#Friday"
+                        ]
+                    },
+                    "contactType":"technical support",
+                    "availableLanguage":"Spanish"
+                },
+                "address":{
+                    "streetAddress":"Paseo de la Castellana, 210",
+                    "addressCountry":"España",
+                    "addressLocality":"Madrid",
+                    "postalCode":"28046",
+                    "addressRegion":"Comunidad de Madrid",
+                    "@type":"PostalAddress"
+                },
+                "logo": {
+                    "@type":"ImageObject",
+                    "url":"https://www.epdata.es/images/logo-epdata.png"
+                }
+            },
+            "dateCreated":"2023-03-31"
+        }
+    
+    </script>
+
+
+</body>
+</html>
