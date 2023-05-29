@@ -5,11 +5,11 @@
 precios de las viviendas, en españa
 
 
-primera hipotesis, ¿solo en español a subido el precio del alquile?
+primera hipotesis, ¿solo en españa a subido el precio del alquiler?
 
 segunda hipotesis, número de ocupación por año y trimestre 
 
-tercera hipotesis, ¿cual es la variación anual de una vivienda nueva y una vivienda de segunda mano 
+tercera hipotesis, ¿cual es la variación anual de una vivienda nueva y una vivienda de segunda mano ?
 
 cuarta hipotesis, salarios mínimos en el sector interprofesional 
 
